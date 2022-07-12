@@ -1,0 +1,152 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #1f313b;
+}
+
+.container {
+  width: 70%;
+  position: relative;
+  height: 32em;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 10px;
+  box-shadow: 14px 14px 20px #141e27, -14px -14px 20px #121314;
+}
+
+.preface {
+  float: left;
+  width: 50%;
+  height: 32em;
+  background-color: #141e27;
+  color: #fff;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 12em;
+}
+
+form {
+  background-color: #eaedf2;
+  float: right;
+  width: 50%;
+  height: 32em;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  margin: auto;
+}
+
+.weight,
+.height,
+.gender {
+  margin-top: 1.5em;
+}
+
+button {
+  margin-top: 4em;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+input,
+select,
+button {
+  background-color: #141e27;
+  border: none;
+  border-radius: 3px;
+  height: 3em;
+  width: 60%;
+  color: #fff;
+  box-shadow: inset 6px 6px 6px #0c0f11, inset -6px -6px 6px #252f38;
+}
+
+button {
+  background-color: #f54620;
+  box-shadow: inset 6px 6px 6px #c7391a, inset -6px -6px 6px #ee6445;
+  cursor: pointer;
+}
+
+.result {
+  height: 2em;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #141e27;
+  color: #ffff;
+  font-size: 23px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1.5em;
+  padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #1f313b;
+  }
+
+  .container {
+    width: 70%;
+    position: relative;
+    height: 55em;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 14px 14px 20px #141e27, -14px -14px 20px #121314;
+  }
+  .preface {
+    width: 100%;
+    height: 20em;
+    background-color: #141e27;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: 6em;
+  }
+
+  form {
+    background-color: #eaedf2;
+    width: 100%;
+    height: 35em;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .weight,
+  .height,
+  .gender {
+    margin-top: 2em;
+  }
+
+  button {
+    margin-top: 5em;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  .result {
+    height: 1em;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #141e27;
+    color: #ffff;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 1em;
+  }
+}
